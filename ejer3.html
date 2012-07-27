@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"></head>
+<body>
+<script type="text/javascript">
+function pass () {
+	var contra1=document.password.pass1.value;
+	var contra2=document.password.pass2.value;
+	if (contra1 == contra2) 
+	{
+		alert('Su contraseña a sido confirmada')
+	}
+	else
+	{
+		alert('Vuelva a escribir su contraseña')
+	}
+}
+</script>
+<form name="password">
+Ingrese su contraseña:
+<input type="password" name="pass1"><br>
+Ingrese nuevamente su contraseña:
+<input type="password" name="pass2"><br>
+<input type="button" onClick="pass()" value="Confirmar">
+</form>
+</body>
+</html>

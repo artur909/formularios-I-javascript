@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function elevar()
+{
+	var numb1=document.eleva.numb.value;
+	var numb2=document.eleva.numb1.value;
+	if (numb1>numb2) 
+	{
+	alert('El numero mayor es '+numb1);
+	}
+	else
+	{
+	alert('El numero mayor es '+numb2);
+	}
+}
+</script>
+<form name="eleva">
+	Ingrese su numero:
+	<input type="text" name="numb"><br>
+	Ingrese otro numero:
+	<input type="text" name="numb1"><br>
+	<input type="button" value="Confirmar" onClick="elevar()">
+</form>
+</form>
+</body>
+</html>
